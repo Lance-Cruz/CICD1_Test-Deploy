@@ -11,7 +11,7 @@ services:
     restart: unless-stopped
 
   login-service:
-    image: ghcr.io/eoin1955/projectwork/app:fd5a778a4200f2c2d31b59fb673a271341acd789
+    image: ghcr.io/eoin1955/projectwork/app:c33efd847d5af04a7c2218a46070cce9ba37d0ff
     env_file: ./.env
     depends_on:
       - db
